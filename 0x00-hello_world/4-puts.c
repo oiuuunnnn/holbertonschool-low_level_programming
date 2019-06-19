@@ -1,3 +1,7 @@
+/*
+	*First C exercise
+	*/
+
 #include <stdio.h>
 
 int main(void)
