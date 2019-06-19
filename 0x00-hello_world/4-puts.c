@@ -1,10 +1,11 @@
+#include <stdio.h>
+
 /**
-*main - entry
+*main - entry point
 *
 *Return: text string
 */
 
-#include <stdio.h>
 int main(void)
 {
 	puts("Programming is like building a multilingual puzzle");
