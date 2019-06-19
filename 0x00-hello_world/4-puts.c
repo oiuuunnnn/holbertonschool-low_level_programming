@@ -1,6 +1,6 @@
 /*
-	*First C exercise
-	*/
+*First C exercise
+*/
 
 #include <stdio.h>
 
