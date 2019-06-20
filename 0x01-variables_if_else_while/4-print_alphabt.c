@@ -16,7 +16,7 @@ int main(void)
 	lt = 'a';
 	br = '\n';
 
-	for (lt = 'a'; lt < 'z'; lt++)
+	for (lt = 'a'; lt < '{'; lt++)
 {
 	if (lt != 'e' && lt != 'q')
 	putchar(lt);
