@@ -11,16 +11,18 @@ int main(void)
 	int n = '0';
 	int b = '0';
 
-	while (n <= '9')
+	for (n = '0'; n <= '9'; n++)
 	{
 		for (b = '0'; b <= '9'; b++)
 		{
 		putchar(n);
 		putchar(b);
-		putchar(',');
-		putchar(' ');
+		if (!(n == '9' && b == '9'))
+			{
+			putchar(',');
+			putchar(' ');
+			}
 		}
-	n++;
 	}
 	putchar('\n');
 return (0);
