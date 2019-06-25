@@ -1,4 +1,4 @@
-#include <holberton.h>
+#include "holberton.h"
 
 /**
 *main - entry point
@@ -7,13 +7,16 @@
 */
 
 int main(void)
-{
-int st(9) = "Holberton";
-int ln;
 
-	for (int x = 0, x <= ln, x++)
-	ln = strlen(st);
-	_putchar(st);
+{
+char st[] = "Holberton";
+int x = 0;
+
+while (st[x] != '\0')
+	{
+	_putchar(st[x]);
+	x++;
+	}
 
 _putchar('\n');
 return (0);
