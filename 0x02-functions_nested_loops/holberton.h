@@ -1,4 +1,7 @@
-int main()
-{
-_putchar();
-return(0);}
+#ifndef Holberton
+#define Holberton
+
+int _putchar(char C);
+
+#endif
+
