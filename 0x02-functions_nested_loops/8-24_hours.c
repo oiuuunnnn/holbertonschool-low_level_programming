@@ -6,16 +6,28 @@
 *Return: 0
 */
 
-void jack_bauer(void);
+void jack_bauer(void)
 
 {
 
-int horas,minutos;
+char h, m, hh, mm;
 
-for (horas = 0; ta1 <= 24; ta1++)
-	for (minutos = 0; minutos <= 60; minutos++)
+h = '0';
+m = '0';
+hh = (24 + 48);
+mm = (60 + 48);
+
+for (h = '0'; h <= hh; h++)
+	for (m = '0'; m <= mm; m++)
+	if (h < hh && m < mm)
 	{
-	if (minutos == 60)
-	
+	_putchar(h / 10);
+	_putchar(h % 10);
+	_putchar(':');
+	_putchar(m / 10);
+	_putchar(m % 10);
+	}
+
+_putchar('\n');
 
 }
