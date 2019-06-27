@@ -3,6 +3,8 @@
 /**
 *print_triangle - entry point
 *
+*@size: var
+*
 *Return: 0
 */
 
@@ -16,7 +18,7 @@ void print_triangle(int size)
 	else
 		for (x = 1; x <= size; x++)
 		{
-			z = size -x;
+			z = size - x;
 			for (y = 1; y <= size; y++)
 			{
 				if (y <= z)
