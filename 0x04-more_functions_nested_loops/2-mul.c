@@ -1,7 +1,11 @@
 #include "holberton.h"
 
 /**
-*int mul - entry point
+*mul - entry point
+*
+*@a: var
+*
+*@b: var
 *
 *Return: 0
 */
@@ -10,6 +14,8 @@ int mul(int a, int b)
 
 {
 
+int r = a * b;
 
+return (r);
 
 }
