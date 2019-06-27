@@ -6,28 +6,29 @@
 *@n: var
 *
 *Return: 0
+*
 */
 
 void print_diagonal(int n)
 
 {
 
-int a;
-int b;
+	int a;
+	int b;
 
-if (n <= 0)
-_putchar('\n');
-else
-	{
-	for (a = 1; a <= n; a++)
-		{
-			{
-			for (b = 0; b <= a; b++)
-				if (b > 1)
-				_putchar(' ');
-			}
-		_putchar('\\');
+	if (n <= 0)
 		_putchar('\n');
+	else
+	{
+		for (a = 1; a <= n; a++)
+		{
+			for (b = 0; b <= a; b++)
+			{
+				if (b > 1)
+					_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
 		}
 	}
 
