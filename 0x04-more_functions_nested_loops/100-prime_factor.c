@@ -24,4 +24,5 @@ for (x = 2; x <= n; x++)
 
 printf("%ld\n", x);
 
+return (0);
 }
