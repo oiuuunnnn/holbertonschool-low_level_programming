@@ -3,7 +3,7 @@
 /**
 *_puts - entry point
 *
-*@*n: var
+*@str: var
 *
 *Return: 0
 */
@@ -11,6 +11,11 @@
 void _puts(char *str)
 {
 
-
+while (*str != '\0')
+	{
+	_putchar(*str);
+	str++;
+	}
+_putchar('\n');
 
 }
