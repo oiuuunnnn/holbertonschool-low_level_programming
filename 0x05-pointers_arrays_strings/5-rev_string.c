@@ -3,7 +3,7 @@
 /**
 *rev_string - entry point
 *
-*@*n: var
+*@s: var
 *
 */
 
