@@ -3,15 +3,16 @@
 /**
 *swap_int - entry point
 *
-*@*a: var
+*@a: var
 *
-**b: var
+*@b: var
 */
 
 void swap_int(int *a, int *b)
 {
 
-*a = int(b);
-*b = int(a);
+int n = *a;
+*a = *b;
+*b = n;
 
 }

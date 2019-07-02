@@ -3,7 +3,7 @@
 /**
 *_strlen - entry point
 *
-*@*s: var
+*@s: var
 *
 *Return: 0
 */
@@ -11,6 +11,11 @@
 int _strlen(char *s)
 {
 
+int lth = 0;
 
+while (s[lth] != '\0')
+	lth++;
+
+return lth;
 
 }
