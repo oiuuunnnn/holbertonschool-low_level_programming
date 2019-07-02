@@ -16,6 +16,6 @@ int lth = 0;
 while (s[lth] != '\0')
 	lth++;
 
-return lth;
+return (lth);
 
 }
