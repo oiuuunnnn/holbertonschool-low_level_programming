@@ -3,13 +3,22 @@
 /**
 *puts2 - entry point
 *
-*@*n: var
+*@str: var
 *
 */
 
 void puts2(char *str)
 {
 
+int c = 0;
 
+while (str[c] != '\0')
+	{
+	_putchar(str[c]);
+	c++;
+	c++;
+	}
+
+_putchar('\n');
 
 }
