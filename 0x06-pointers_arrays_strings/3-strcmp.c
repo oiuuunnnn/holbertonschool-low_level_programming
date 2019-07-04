@@ -14,18 +14,19 @@ int _strcmp(char *s1, char *s2)
 {
 
 int x = 0;
-int z = 0;
+int y = 0;
+int z = 15;
 
 while (s1[x] != '\0')
 	x++;
 
-while (s2[z] != '\0')
-	z++;
+while (s2[y] != '\0')
+	y++;
 
-if (x > z)
-	return (15);
-else if (x < z)
-	return (-15);
+if (x > y)
+	return (z);
+else if (x < y)
+	return (-z);
 else
 	return (0);
 
