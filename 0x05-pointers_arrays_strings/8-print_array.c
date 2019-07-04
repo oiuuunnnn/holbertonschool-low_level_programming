@@ -1,15 +1,31 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
-*void print_array(int *a, int n) - entry point
+*print_array - entry point
 *
-*@*n: var
+*@a: var
 *
+*@n: var
 */
 
 void print_array(int *a, int n)
 {
 
+int c = 0;
 
+while (c < n)
+
+{
+	printf("%d", a[c]);
+	c++;
+	if (c != n)
+	{
+	printf(",");
+	printf(" ");
+	}
+}
+
+printf("\n");
 
 }
