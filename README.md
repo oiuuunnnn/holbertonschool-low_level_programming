@@ -1,1 +1,3 @@
-Basic C exercises. 
+Strings.
+Arrays.
+Pointers.
