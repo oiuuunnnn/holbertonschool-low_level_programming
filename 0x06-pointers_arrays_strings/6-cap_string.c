@@ -20,6 +20,8 @@ for (c = 0; s[c] != '\0'; c++)
 	{
 	for (sec = 0; set[sec] != '\0'; sec++)
 		{
+		if (s[c] == 9)
+			s[c] = 32;
 		if (s[c] == set[sec] && s[c + 1] >= 97 && s[c + 1] <= 122)
 			{
 			cap = s[c + 1];
